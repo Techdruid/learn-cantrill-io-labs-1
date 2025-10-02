@@ -33,6 +33,7 @@ sudo apt-get install libssh-dev -y
 cd /tmp
 git clone https://github.com/rtrlib/rtrlib/ 
 cd rtrlib
+git checkout 0.7.0   # or a commit before ASPA refactor
 mkdir build; cd build 
 cmake -D CMAKE_BUILD_TYPE=Release ..
 make
