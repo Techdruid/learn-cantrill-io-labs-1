@@ -67,7 +67,6 @@ cd frr
     --enable-user=frr \
     --enable-group=frr \
     --enable-vty-group=frrvty \
-    --enable-systemd=yes \
     --with-pkg-git-version \
     --with-pkg-extra-version=-chriselsen
     
