@@ -48,7 +48,7 @@ sudo adduser --system --ingroup frr --home /var/run/frr/ \
 sudo usermod -a -G frrvty frr
 
 cd /tmp
-git clone https://github.com/frrouting/frr.git frr
+git clone -b stable/9.0 https://github.com/frrouting/frr.git frr
 cd frr
 ./bootstrap.sh
 ./configure \
