@@ -31,7 +31,7 @@ sudo apt-get install -y libzmq5 libzmq3-dev
 sudo apt-get install libssh-dev -y
 
 cd /tmp
-git clone -b 0.7.0 https://github.com/rtrlib/rtrlib/ rtrlib
+git clone https://github.com/rtrlib/rtrlib/
 cd rtrlib
 git checkout tags/v0.8.0 -b rtrlib-v0.8.0
 mkdir build; cd build 
