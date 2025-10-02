@@ -33,7 +33,7 @@ sudo apt-get install libssh-dev -y
 cd /tmp
 git clone -b 0.7.0 https://github.com/rtrlib/rtrlib/ rtrlib
 cd rtrlib
-git checkout tags/v0.6.3 -b rtrlib-0.6.3
+git checkout tags/v0.8.0 -b rtrlib-v0.8.0
 mkdir build; cd build 
 cmake -D CMAKE_BUILD_TYPE=Release ..
 make
