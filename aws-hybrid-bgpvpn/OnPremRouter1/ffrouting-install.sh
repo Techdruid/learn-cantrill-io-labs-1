@@ -68,6 +68,7 @@ cd frr
     --enable-group=frr \
     --enable-vty-group=frrvty \
     --enable-rpki=yes \
+    --disable-aspa \
     --with-pkg-git-version \
     --with-pkg-extra-version=-chriselsen
     
