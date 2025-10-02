@@ -54,22 +54,24 @@ cd frr
 ./configure \
     --prefix=/usr \
     --includedir=\${prefix}/include \
+    --enable-exampledir=\${prefix}/share/doc/frr/examples \
     --bindir=\${prefix}/bin \
     --sbindir=\${prefix}/lib/frr \
     --libdir=\${prefix}/lib/frr \
     --libexecdir=\${prefix}/lib/frr \
-    --localstatedir=/var \
+    --localstatedir=/var/run/frr \
     --sysconfdir=/etc/frr \
     --with-moduledir=\${prefix}/lib/frr/modules \
+    --with-libyang-pluginsdir=\${prefix}/lib/frr/libyang_plugins \
     --enable-configfile-mask=0640 \
     --enable-logfile-mask=0640 \
-    --enable-snmp \
+    --enable-snmp=agentx \
     --enable-multipath=64 \
     --enable-user=frr \
     --enable-group=frr \
     --enable-vty-group=frrvty \
+    --enable-systemd=yes \
     --enable-rpki=yes \
-    --disable-aspa \
     --with-pkg-git-version \
     --with-pkg-extra-version=-chriselsen
     
