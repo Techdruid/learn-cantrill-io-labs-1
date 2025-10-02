@@ -31,7 +31,7 @@ sudo apt-get install -y libzmq5 libzmq3-dev
 sudo apt-get install libssh-dev -y
 
 cd /tmp
-git clone https://github.com/rtrlib/rtrlib/ 
+git clone -b 0.7.0 https://github.com/rtrlib/rtrlib/ rtrlib
 cd rtrlib
 git checkout 0.7.0   # or a commit before ASPA refactor
 mkdir build; cd build 
