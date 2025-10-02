@@ -59,7 +59,7 @@ cd frr
     --libdir=\${prefix}/lib/frr \
     --libexecdir=\${prefix}/lib/frr \
     --localstatedir=/var \
-    --sysconfdir=/etc \
+    --sysconfdir=/etc/frr \
     --with-moduledir=\${prefix}/lib/frr/modules \
     --enable-configfile-mask=0640 \
     --enable-logfile-mask=0640 \
